@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Alatsi&family=Signika:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Extra Pequeno */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+/* pequeno */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+/* medio */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+/* grande */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+/* extra grande */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+/* extra extra grande */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+body {
+  font-family: "Alatsi", sans-serif;
+  background-image: radial-gradient(
+    rgb(48, 62, 81),
+    rgb(32,40,51, 100) 
+  );
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 100%
+}
+
+.checkbox{
+  
+}
+
+/* HEADER - MENU */
+
+.header {
+  
+}
+
+.checkbox-container {
+
+}
+
+.checkbox-wrapper {
+  
+}
+
+.checkbox {
+
+}
+
+input {
+  visibility: hidden;
+  position: absolute ;
+}
+
+.menu-itens {
+  
+}
+
+.menu-itens ul {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.menu-itens ul li a{
+  color: #56cac6;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+/* MAIN 1 - APRESENTAÇÃO */
+
+.apresentacao {
+  color: white;
+ 
+}
+
+.t1 {
+  font-size: 20px;
+  color: #56cac6;
+}
+
+.t2 {
+  font-size: 120px;
+  height: 90px;
+}
+
+.t3 {
+  font-size: 200px;
+  height: 220px;
+}
+
+p {
+  margin-left: 410px;
+  color: #56cac6;
+}
+
+.icons {
+  position: absolute;
+}
+
+.icons nav {
+}
+
+.icons ul {
+  display: flex;
+}
+
+.icons ul li {
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  cursor: pointer;
+}
+
+ion-icon {
+  font-size: 32px;
+  color:#56cac6;
+}
+
+/* ANIMAÇÃO */
+
